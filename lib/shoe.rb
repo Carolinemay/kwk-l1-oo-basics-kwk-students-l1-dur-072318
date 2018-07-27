@@ -1,1 +1,35 @@
 # Make your shoe class here!
+class Shoe
+  def initialize(brand)
+    @brand = brand
+  end 
+  def brand 
+  @brand 
+end
+  def color
+    @color
+  end
+  def color=(color="red")
+    @color = color
+  end
+  def size 
+    @size
+end
+  def size=(size="")
+    @size=size 
+end
+  def material
+    @material
+  end
+  def material=(material="")
+    @material = material
+  end
+  def condition 
+    @condition
+  end
+  def condition=(condition = "tattered")
+    @condition =  condition
+  end
+end
+shoe1 = Shoe.new("Nike")
+    
